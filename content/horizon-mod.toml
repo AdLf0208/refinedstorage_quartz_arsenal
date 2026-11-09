@@ -1,0 +1,8 @@
+# Carried from refinedstorage-quartz-arsenal-neoforge-1.0.8.jar (MIT) for local use only.
+# Provenance, hashes and the licence string: ports/_shared/carry-work/refinedstorage_quartz_arsenal/SOURCE.md
+id = "refinedstorage_quartz_arsenal"
+name = "Refined Storage - Quartz Arsenal"
+version = "1.0.8"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

@@ -1,0 +1,19 @@
+[package]
+# Content port of: Refined Storage - Quartz Arsenal 1.0.8
+# (refinedmods/refinedstorage-quartz-arsenal, MIT). The two items are declared in
+# ../content from the jar's own assets, data and lang; this crate is the
+# test-only census model (zero injections), kept so the two ids, their model
+# paths, the recipe's shape and the locale set are unit-tested. The textures,
+# models, lang and recipe are the upstream mod's own MIT files; the port stays
+# local until the maintainer approves publishing (ARCHITECTURE.md §8).
+name = "horizon-refined-storage-quartz-arsenal"
+version = "1.0.8"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "Refined Storage - Quartz Arsenal's two wireless grids for Horizon"
+publish = false
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/refinedstorage_quartz_arsenal/runtime.rs"

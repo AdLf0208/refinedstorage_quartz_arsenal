@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "refinedstorage_quartz_arsenal:item/wireless_crafting_grid/inactive"
+  }
+}

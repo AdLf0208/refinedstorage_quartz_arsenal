@@ -1,0 +1,18 @@
+[mod]
+id = "refinedstorage_quartz_arsenal"
+version = "1.0.8"
+priority = 100
+
+[compatibility]
+horizon_revision = "1d63e0a5a37a7a708eb0b32b49bf0dfeb28ed8a9"
+
+# The pure two-item census (standalone crate lib, injected as
+# `crate::game::refinedstorage_quartz_arsenal`). The two items are content-only,
+# declared in ../content, so this bundle has no injection. The 10 tests pin the
+# ids, the four carried model paths, the recipe's shape and the 18 locales that
+# `../tools/gen_content.py` writes.
+[[module]]
+id = "runtime"
+file = "crates/horizon-client/src/game.rs"
+name = "refinedstorage_quartz_arsenal"
+source = "runtime.rs"
